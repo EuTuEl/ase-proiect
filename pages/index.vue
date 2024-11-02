@@ -61,5 +61,6 @@ function logOutHandler () {
     const cookie = useCookie("token")
     cookie.value = null
     router.push("/login")
+
 }
 </script>
